@@ -1,29 +1,37 @@
 # Reid Health
 
-**Digital workflows for care and healthcare operations**
+**Digital workflows for healthcare and care operations**
 
-Reid Health is a healthcare operations platform for teams coordinating care, staff, and administrative work across home, community, and residential settings.
+Reid Health is a role-based healthcare operations platform for teams coordinating clinical services, residential and community care, staff, and administration. It brings related work areas into one application so that care and operations teams can move between the tasks their role requires.
 
-## Product areas
+## Product workspaces
 
-- **Clinical and care workspaces** support day-to-day service and patient-related workflows.
-- **Scheduling and workforce tools** help teams coordinate staff, shifts, and time-off activity.
-- **Residential and community operations** bring service delivery and team coordination into the same product.
-- **Human resources and learning** support staff administration and e-learning.
-- **Administration and reporting** give authorized teams tools for oversight and operational work.
+- **Clinical** supports patient-related and service workflows.
+- **Residential and community care** organize day-to-day service delivery.
+- **Scheduling** helps coordinate staff calendars and coverage.
+- **Human resources** supports workforce records and administration.
+- **E-learning** manages programs, courses, grades, and training records.
+- **Office, finance, and billing areas** support administrative work.
+- **Reporting and administration** give authorized users tools for operational oversight.
 
-The platform is organized around role-aware workspaces so clinical, care, office, and administrative teams can focus on the tasks relevant to their role.
+The interface is organized around role-aware navigation and workspaces. This helps teams reach the relevant lists, records, forms, calendars, and follow-up actions without turning every role into the same general dashboard.
 
-## Engineering scope
+## Engineering
 
-The product uses a Next.js and TypeScript application with Supabase and PostgreSQL for authentication, data, file storage, and realtime features. It includes browser-based workflow checks as part of its development toolset.
+The web application uses Next.js and TypeScript, with Supabase and PostgreSQL for authentication, data, file storage, and realtime features. Server-side identity checks and access policies are part of the application boundary. The project also includes automated checks for important workflows and responsive layouts.
+
+Healthcare software must protect patient and staff information. The public showcase therefore describes the product and engineering scope without publishing records, credentials, or operational details.
 
 ## Technology
 
 Next.js, TypeScript, Supabase, PostgreSQL, Playwright, and Vitest.
 
-## About this repository
+## Screenshots
 
-This is a public project summary only. It does not publish patient or staff information, private source code, credentials, or internal operating details.
+Available project captures include staff names and operational information, so they are not included in this public README.
+
+## This repository
+
+This is a public project summary only. It does not contain patient or staff information, private source code, credentials, or internal operating details.
 
 [Explore AceNetics](https://acenetics.dev)
