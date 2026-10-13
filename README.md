@@ -14,13 +14,17 @@ Reid Health is a role-based healthcare operations platform for teams coordinatin
 - **Office, finance, and billing areas** support administrative work.
 - **Reporting and administration** give authorized users tools for operational oversight.
 
-The interface is organized around role-aware navigation and workspaces. This helps teams reach the relevant lists, records, forms, calendars, and follow-up actions without turning every role into the same general dashboard.
+The interface is organized around role-aware navigation and workspaces. This helps teams reach relevant lists, records, forms, calendars, documents, and follow-up actions without turning every role into the same general dashboard. Workflows can bring related client, staff, service, and scheduling information together while keeping each workspace focused on its job.
 
 ## Engineering
 
-The web application uses Next.js and TypeScript, with Supabase and PostgreSQL for authentication, data, file storage, and realtime features. Server-side identity checks and access policies are part of the application boundary. The project also includes automated checks for important workflows and responsive layouts.
+The web application uses Next.js and TypeScript, with Supabase and PostgreSQL for authentication, data, file storage, and realtime features. Server-side identity checks and data-access policies are part of the application boundary. The project uses reusable interface components and shared layout patterns so that clinical, staffing, and administrative screens behave consistently while serving different roles.
 
-Healthcare software must protect patient and staff information. The public showcase therefore describes the product and engineering scope without publishing records, credentials, or operational details.
+The development process includes unit and workflow tests, along with responsive checks for desktop, tablet, and mobile layouts. Documents and form-driven processes are designed to preserve preview and print workflows where those are part of the task.
+
+## Privacy and access
+
+Healthcare software must protect patient and staff information. The public showcase therefore describes product areas and engineering scope without publishing records, credentials, or operational details. Sensitive reads and writes should follow the application's authorization rules and the user's role rather than relying on a visible navigation link alone.
 
 ## Technology
 
