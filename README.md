@@ -26,7 +26,7 @@ The development process includes unit and workflow tests, along with responsive 
 
 ## Privacy and access
 
-Healthcare software must protect patient and staff information. The public showcase therefore describes product areas and engineering scope without publishing records, credentials, or operational details. Sensitive reads and writes should follow the application's authorization rules and the user's role rather than relying on a visible navigation link alone.
+Healthcare software must protect patient and staff information. The staff workspace screenshot below uses a test account and test data, not a real staff member or patient. Sensitive reads and writes should follow the application's authorization rules and the user's role rather than relying on a visible navigation link alone.
 
 ## Technology
 
@@ -34,10 +34,20 @@ Next.js, TypeScript, Supabase, PostgreSQL, Playwright, and Vitest.
 
 ## Screenshots
 
-Available project captures include staff names and operational information, so they are not included in this public README.
+The screenshots show the public website on desktop and mobile, along with the staff workspace using test data.
+
+### Public website
+
+![Reid Health public home page on desktop](screenshots/reid-public-home-desktop.png)
+
+![Reid Health public home page on mobile](screenshots/reid-public-home-mobile.png)
+
+### Staff workspace
+
+![Reid Health staff dashboard with a test account](screenshots/reid-staff-dashboard-desktop.png)
 
 ## This repository
 
-This is a public project summary only. It does not contain patient or staff information, private source code, credentials, or internal operating details.
+This is a public project summary with interface screenshots using test data. It does not contain real patient or staff records, private source code, or credentials.
 
 [Explore AceNetics](https://acenetics.dev)
